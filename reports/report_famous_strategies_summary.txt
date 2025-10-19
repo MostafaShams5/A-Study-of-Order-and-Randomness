@@ -1,0 +1,34 @@
+================================================================================
+BETTING STRATEGY SIMULATION REPORT (20 RUNS)
+================================================================================
+Generated (UTC): 2025-10-16 19:01:09
+Methodology: Averaged results over 20 simulations on shuffled data.
+================================================================================
+
+PERFORMANCE METRICS SUMMARY (AVERAGES)
+────────────────────────────────────────────────────────────────────────────────
+
+        Strategy Avg Final Bankroll ($) Std. Dev. ($) Avg Win Rate (%) Avg ROI (%) Sharpe Ratio
+Bet on Away Team                     $7            $3             27.8      -16.32        -2.36
+      Random Bet                     $6            $2             32.3      -11.68        -1.97
+Bet on Home Team                     $6            $3             45.7       -3.82        -1.34
+ Bet on Favorite                     $5            $2             53.9       -4.15        -2.76
+ Bet on Underdog                     $4            $3             20.4      -10.81        -2.11
+
+────────────────────────────────────────────────────────────────────────────────
+
+STATISTICAL FINDINGS
+────────────────────────────────────────────────────────────────────────────────
+
+1. Expected Value:
+   The 'Avg ROI (%)' for all strategies is negative, confirming a negative expected
+   value due to the bookmaker's margin (vigorish).
+
+2. Risk-Adjusted Performance (Sharpe Ratio):
+   The 'Bet on Home Team' strategy (-1.34 Sharpe) offers
+   the optimal risk-adjusted performance. Conversely, 'Bet on Favorite' (-2.76 Sharpe)
+   is the least optimal from a risk-reward perspective.
+
+3. Overall Conclusion:
+   Statistical analysis robustly concludes that none of the tested simple strategies
+   can consistently overcome the inherent mathematical advantage of the bookmaker.

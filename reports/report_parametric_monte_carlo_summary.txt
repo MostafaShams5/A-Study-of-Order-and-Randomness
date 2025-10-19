@@ -1,0 +1,201 @@
+=====================================================================================
+        PARAMETRIC MONTE CARLO: COMPREHENSIVE STATISTICAL REPORT
+=====================================================================================
+
+## Global Simulation Parameters
+  - Simulation Population (Players/Machines): 20,000
+  - Initial Bankroll: $1,000
+  - Bets per Simulation: 500
+  - Stake per Bet: $10
+
+=====================================================================================
+## STRATEGY ANALYSIS: BET ON HOME TEAM
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 45.70%
+  - Calculated Payout Odds: 2.1046
+  - Expected Value (EV) per $10 Bet: $-0.3820
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $809.00
+  - Actual Mean Final Bankroll (Simulated): $807.70
+  - Median Final Bankroll (Typical Outcome): $798.48
+
+## Risk & Return Profile
+  - Standard Deviation: $234.30
+  - Sortino Ratio (Downside Risk-Adjusted Return): -1.0821
+  - 95% Value at Risk (VaR): You can expect to lose at least $580.35 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 4,149 (20.7%)
+  - Unprofitable Majority: 15,839 (79.2%)
+  - Bankrupt ('Risk of Ruin'): 12 (0.1%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: BET ON AWAY TEAM
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 27.80%
+  - Calculated Payout Odds: 3.0101
+  - Expected Value (EV) per $10 Bet: $-1.6320
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $184.00
+  - Actual Mean Final Bankroll (Simulated): $230.57
+  - Median Final Bankroll (Typical Outcome): $184.00
+
+## Risk & Return Profile
+  - Standard Deviation: $238.15
+  - Sortino Ratio (Downside Risk-Adjusted Return): -3.3306
+  - 95% Value at Risk (VaR): You can expect to lose at least $1,000.00 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 89 (0.4%)
+  - Unprofitable Majority: 13,227 (66.1%)
+  - Bankrupt ('Risk of Ruin'): 6,684 (33.4%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: BET ON FAVORITE
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 53.90%
+  - Calculated Payout Odds: 1.7783
+  - Expected Value (EV) per $10 Bet: $-0.4150
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $792.50
+  - Actual Mean Final Bankroll (Simulated): $793.47
+  - Median Final Bankroll (Typical Outcome): $801.39
+
+## Risk & Return Profile
+  - Standard Deviation: $198.09
+  - Sortino Ratio (Downside Risk-Adjusted Return): -1.2872
+  - 95% Value at Risk (VaR): You can expect to lose at least $536.48 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 2,837 (14.2%)
+  - Unprofitable Majority: 17,162 (85.8%)
+  - Bankrupt ('Risk of Ruin'): 1 (0.0%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: BET ON UNDERDOG
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 20.40%
+  - Calculated Payout Odds: 4.3721
+  - Expected Value (EV) per $10 Bet: $-1.0810
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $459.50
+  - Actual Mean Final Bankroll (Simulated): $479.36
+  - Median Final Bankroll (Typical Outcome): $459.50
+
+## Risk & Return Profile
+  - Standard Deviation: $362.12
+  - Sortino Ratio (Downside Risk-Adjusted Return): -1.7411
+  - 95% Value at Risk (VaR): You can expect to lose at least $1,000.00 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 1,695 (8.5%)
+  - Unprofitable Majority: 14,887 (74.4%)
+  - Bankrupt ('Risk of Ruin'): 3,418 (17.1%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: RANDOM BET
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 32.30%
+  - Calculated Payout Odds: 2.7344
+  - Expected Value (EV) per $10 Bet: $-1.1680
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $416.00
+  - Actual Mean Final Bankroll (Simulated): $424.57
+  - Median Final Bankroll (Typical Outcome): $429.67
+
+## Risk & Return Profile
+  - Standard Deviation: $270.85
+  - Sortino Ratio (Downside Risk-Adjusted Return): -2.2820
+  - 95% Value at Risk (VaR): You can expect to lose at least $1,000.00 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 478 (2.4%)
+  - Unprofitable Majority: 17,546 (87.7%)
+  - Bankrupt ('Risk of Ruin'): 1,976 (9.9%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: XGBOOST
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 51.51%
+  - Calculated Payout Odds: 1.9138
+  - Expected Value (EV) per $10 Bet: $-0.1420
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $929.00
+  - Actual Mean Final Bankroll (Simulated): $927.50
+  - Median Final Bankroll (Typical Outcome): $918.47
+
+## Risk & Return Profile
+  - Standard Deviation: $215.90
+  - Sortino Ratio (Downside Risk-Adjusted Return): -0.5005
+  - 95% Value at Risk (VaR): You can expect to lose at least $426.01 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 7,184 (35.9%)
+  - Unprofitable Majority: 12,816 (64.1%)
+  - Bankrupt ('Risk of Ruin'): 0 (0.0%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: LIGHTGBM
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 52.28%
+  - Calculated Payout Odds: 1.8849
+  - Expected Value (EV) per $10 Bet: $-0.1460
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $927.00
+  - Actual Mean Final Bankroll (Simulated): $929.81
+  - Median Final Bankroll (Typical Outcome): $938.31
+
+## Risk & Return Profile
+  - Standard Deviation: $211.75
+  - Sortino Ratio (Downside Risk-Adjusted Return): -0.4942
+  - 95% Value at Risk (VaR): You can expect to lose at least $419.81 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 7,350 (36.8%)
+  - Unprofitable Majority: 12,649 (63.2%)
+  - Bankrupt ('Risk of Ruin'): 1 (0.0%)
+
+=====================================================================================
+## STRATEGY ANALYSIS: RANDOM FOREST
+=====================================================================================
+
+## Mathematical Expectation
+  - True Win Probability: 48.81%
+  - Calculated Payout Odds: 2.0172
+  - Expected Value (EV) per $10 Bet: $-0.1540
+
+## Central Tendency
+  - Theoretical Mean Final Bankroll: $923.00
+  - Actual Mean Final Bankroll (Simulated): $923.65
+  - Median Final Bankroll (Typical Outcome): $921.99
+
+## Risk & Return Profile
+  - Standard Deviation: $224.42
+  - Sortino Ratio (Downside Risk-Adjusted Return): -0.5141
+  - 95% Value at Risk (VaR): You can expect to lose at least $441.11 in 5% of cases.
+
+## Final Population Segmentation
+  - Profitable: 7,534 (37.7%)
+  - Unprofitable Majority: 12,464 (62.3%)
+  - Bankrupt ('Risk of Ruin'): 2 (0.0%)
