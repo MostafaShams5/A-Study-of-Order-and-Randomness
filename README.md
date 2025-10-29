@@ -1,5 +1,7 @@
 # A Study of Order and Randomness
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17475734.svg)](https://doi.org/10.5281/zenodo.17475734)
+
 This repository contains the complete dataset, analysis scripts, and simulation code for the research paper: **"Does the House Really Always Win? What AI Found in the Chaos: A Study of Order and Randomness."**
 
 This is the official repository for the paper, as cited in the publication.
@@ -100,20 +102,30 @@ To reproduce the findings in this paper:
 
 ---
 
-## License and Usage
+## License
 
-**All Rights Reserved**
+This project (including the paper, code, and data) is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-This work is proprietary. All rights are reserved by the author, Mostafa Shams.
-
-The code, data, and written content in this repository are provided for academic review and demonstration purposes only. You may not reproduce, distribute, modify, or create derivative works from any part of this project for commercial or non-commercial purposes without the express prior written permission of the author.
-
-To request permission for any use, please contact the author directly.
+This means you are free to share and adapt this work for any purpose, as long as you give appropriate credit by citing the paper (see the "How to Cite" section).
 
 ---
 
-## Citation
+## How to Cite
 
-If this work is referenced in your research, please use the following citation:
+This repository is the official code and data for the research paper. If you use this work, please cite the paper using the following:
 
-Shams, Mostafa. "Does the House Really Always Win? What AI Found in the Chaos: A Study of Order and Randomness." 2025.
+**APA Style**
+Shams, M. (2025). *Does the House Really Always Win? What AI Found in the Chaos: A Study of Order and Randomness* (Version 1.1) [Working Paper]. Zenodo. https://doi.org/10.5281/zenodo.17475734
+
+**BibTeX**
+```bibtex
+@software{shams_2025_17475734,
+  author       = {Shams, Mostafa},
+  title        = {{Does the House Really Always Win? What AI Found in 
+                   the Chaos: A Study of Order and Randomness}},
+  version      = {1.1},
+  publisher    = {Zenodo},
+  year         = {2025},
+  doi          = {10.5281/zenodo.17475734},
+  url          = {[https://doi.org/10.5281/zenodo.17475734](https://doi.org/10.5281/zenodo.17475734)}
+}
